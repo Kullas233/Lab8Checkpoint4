@@ -21,4 +21,6 @@ add_test(Comp-25 "/mnt/c/Users/kulla/OneDrive/Documents/RPI/CSCI 4470/cmake/help
 set_tests_properties(Comp-25 PROPERTIES  PASS_REGULAR_EXPRESSION "-25 is (-nan|nan|0)")
 add_test(Comp0.0001 "/mnt/c/Users/kulla/OneDrive/Documents/RPI/CSCI 4470/cmake/help/guide/tutorial/step5_build/Tutorial" "0.0001")
 set_tests_properties(Comp0.0001 PROPERTIES  PASS_REGULAR_EXPRESSION "0.0001 is 0.01")
+add_test(Comp4096 "/mnt/c/Users/kulla/OneDrive/Documents/RPI/CSCI 4470/cmake/help/guide/tutorial/step5_build/Tutorial" "4096")
+set_tests_properties(Comp4096 PROPERTIES  PASS_REGULAR_EXPRESSION "4096 is 64")
 subdirs("MathFunctions")
